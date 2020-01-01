@@ -82,6 +82,8 @@ class LOGS():
             except Exception as e:
                 # if some errors happens it will log as error
                 logging.error(e)
+        
+        cmds.close()
 
 
 #Creating instance
